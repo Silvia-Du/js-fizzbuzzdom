@@ -33,8 +33,20 @@ for(let i = 1; i <=limit; i++){
    //3.
    const boxEr =document.createElement('div');
    boxEr.className = 'box';
-   boxEr.append(i);
-   conTainer.append(boxEr)
+   conTainer.append(boxEr);
+
+   if((i % 3 === 0) && (i % 5 === 0)){
+    boxEr.append('FizzBuzz');
+    
+   } else if(i % 3 === 0){
+    boxEr.append('Fizz');
+
+   } else if(i % 5 === 0){
+    boxEr.append('Buzz');
+
+   } else {
+    boxEr.append(i);
+   }
 
 }
 

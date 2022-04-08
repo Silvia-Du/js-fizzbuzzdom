@@ -6,9 +6,10 @@ d M3- stile differente per i multipli di 3, 5 e condivisi;
 
 Flusso di lavoro:
 1. creare ciclo for con i da 1 a 100;
-
+2. assegnare valori diversi ai multipli nel ciclo for.
+3. 
 */
-//1.
+//1. 2.
 const limit =20;
 let text ='';
 const buzz ='Buzz';
@@ -28,7 +29,6 @@ for(let i = 1; i <=limit; i++){
     console.log(i);
    }
 
- 
 }
 
 

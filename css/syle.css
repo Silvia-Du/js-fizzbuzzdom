@@ -20,6 +20,16 @@ h1{
   width: 70%;
   min-height: 100px;
   margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
   background-color: darkcyan;
+  border-radius: 20px;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: darkorange;
   border-radius: 20px;
 }

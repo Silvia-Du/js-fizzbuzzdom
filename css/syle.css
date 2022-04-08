@@ -41,22 +41,28 @@ h1{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:beige;
   font-weight: bold;
+  box-shadow: 5px 5px 10px rgb(88, 77, 99) inset;
 }
 
 .fizz-buzz-box{
   background-color:rgb(202, 182, 221);
   color:rgb(71, 19, 121);
-  border: 2px solid wheat;
 }
 
 .fizz-box{
   background-color:antiquewhite;
   color:rgb(73, 127, 129);
-  border: 2px solid darkorange;
 }
 
 .buzz-box{
-  background-color:rgb(71, 19, 121);
+  background-color: rgb(71, 19, 121);
   color:beige;
-  border: 2px solid darkorange;
+  box-shadow: 5px 5px 10px rgb(60, 53, 68) inset;
+}
+
+
+.box:hover{
+  transform: scale(0.9);
+  transition: 0.3s;
+  box-shadow: 0;
 }

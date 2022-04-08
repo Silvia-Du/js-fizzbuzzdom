@@ -8,9 +8,21 @@ Flusso di lavoro:
 1. creare ciclo for con i da 1 a 100;
 
 */
-
-const limit =100;
+//1.
+const limit =10;
+const dividendo3 =3;
+const dividendo5 =5;
+let text ='';
+const buzz ='Buzz';
 
 for(let i =1; i <=limit; i++){
   console.log(i);
+
+  if(!(i % dividendo3)){
+    
+   }
 }
+
+
+
+//2.

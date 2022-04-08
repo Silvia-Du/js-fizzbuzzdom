@@ -6,4 +6,20 @@
 
 body{
   background-color: cadetblue;
+  padding: 30px;
+  text-align: center;
+  color: beige;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  text-decoration: underline;
+}
+
+.container{
+  width: 70%;
+  min-height: 100px;
+  margin: 10px auto;
+  background-color: darkcyan;
+  border-radius: 20px;
 }

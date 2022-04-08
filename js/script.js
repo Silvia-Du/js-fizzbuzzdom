@@ -7,7 +7,10 @@ d M3- stile differente per i multipli di 3, 5 e condivisi;
 Flusso di lavoro:
 1. creare ciclo for con i da 1 a 100;
 2. assegnare valori diversi ai multipli nel ciclo for.
-3. 
+3. salvare contenitore in una costante
+   creo elemento da aggiungere / con una classe dedicata
+   lo aggiungo al contenitore
+   creo le eccezioni per il contenuto
 */
 
 const limit =100;

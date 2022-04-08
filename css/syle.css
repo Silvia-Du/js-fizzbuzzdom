@@ -40,4 +40,23 @@ h1{
   font-size: 1.2rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:beige;
+  font-weight: bold;
+}
+
+.fizz-buzz-box{
+  background-color:rgb(202, 182, 221);
+  color:rgb(71, 19, 121);
+  border: 2px solid wheat;
+}
+
+.fizz-box{
+  background-color:antiquewhite;
+  color:rgb(73, 127, 129);
+  border: 2px solid darkorange;
+}
+
+.buzz-box{
+  background-color:rgb(71, 19, 121);
+  color:beige;
+  border: 2px solid darkorange;
 }

@@ -21,6 +21,7 @@ h1{
   min-height: 100px;
   margin: 10px auto;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px;
   background-color: darkcyan;
@@ -30,6 +31,12 @@ h1{
 .box{
   width: 100px;
   height: 100px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: darkorange;
   border-radius: 20px;
+  font-size: 1.5rem;
+  color:beige;
 }

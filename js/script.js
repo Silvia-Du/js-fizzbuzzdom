@@ -9,13 +9,14 @@ Flusso di lavoro:
 2. assegnare valori diversi ai multipli nel ciclo for.
 3. 
 */
-//1. 2.
-const limit =20;
-let text ='';
-const buzz ='Buzz';
 
+const limit =100;
+const conTainer =document.querySelector('.container')
+
+//1.
 for(let i = 1; i <=limit; i++){
   
+  //2.
   if((i % 3 === 0) && (i % 5 === 0)){
     console.log('FizzBuzz');
     
@@ -28,6 +29,12 @@ for(let i = 1; i <=limit; i++){
    } else {
     console.log(i);
    }
+
+   //3.
+   const boxEr =document.createElement('div');
+   boxEr.className = 'box';
+   boxEr.append(i);
+   conTainer.append(boxEr)
 
 }
 

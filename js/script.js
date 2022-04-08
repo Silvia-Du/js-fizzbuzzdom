@@ -9,19 +9,29 @@ Flusso di lavoro:
 
 */
 //1.
-const limit =10;
-const dividendo3 =3;
-const dividendo5 =5;
+const limit =20;
 let text ='';
 const buzz ='Buzz';
 
-for(let i =1; i <=limit; i++){
-  console.log(i);
-
-  if(!(i % dividendo3)){
+for(let i = 1; i <=limit; i++){
+  
+  if((i % 3 === 0) && (i % 5 === 0)){
+    console.log('FizzBuzz');
     
+   } else if(i % 3 === 0){
+    console.log('Fizz');
+
+   } else if(i % 5 === 0){
+    console.log('Buzz');
+
+   } else {
+    console.log(i);
    }
+
+ 
 }
+
+
 
 
 
